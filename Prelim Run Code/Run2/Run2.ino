@@ -44,7 +44,15 @@ void OneStepBackward(){
     S1.write(90-pos);
     delay(15);                     
   } 
+void MoveForward(){
 }
+void MoveBackward(){
+}
+void TurnLeft(){
+}
+void Turn Right(){
+}
+
 void loop() {
   for (pos = 0; pos <= 30; pos += 1) { 
     // in steps of 1 degree
