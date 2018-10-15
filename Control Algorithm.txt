@@ -1,0 +1,12 @@
+In Hexapod,
+For better movement in plane,
+it is possible to implement motions by 2 types:
+1) Creating Functions for Each Type of motion like turning right/left, moving forward etc. Containing Specific Joint angles that Servo motors need to trace to yield the desired motion
+2) Anther way is to give the end effector path to follow, thereby, getting the Angles/functions that servos need to follow by inverse kinematics.
+
+The first one would be easier bu not as versatile as the second one. Also there won't be any flexibility to perform some separate motion. Using Inverse Kinematics, the second one will be more easy to implement.
+
+So, We have decided to control the Hexapod Using one 2 Axis Joystick and one single axis joy stick. The Single Axis joy stick will Give input for speed and forward or backward motion. While the 2 Axis Joystick will determine the direction to steer the hexapod. Thus enabling us to control hexapod speed and also give ability to give input to hexapod to rotate/ move at its current location.
+
+*/ So, We have decided to control the Hexapod Using one 2 Axis Joystick and one switch to lock/unlock the current location of hexapod. The 2 Axis joy stick will Give input for Direction and speed. While the second /*
+
